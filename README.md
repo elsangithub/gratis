@@ -1,4 +1,4 @@
-[GEO VPN PROJECT](https://istriku.me)
+[GEO VPN PROJECT](https://istriku.me/gratis)
 
 
 ## TAHAP 1
