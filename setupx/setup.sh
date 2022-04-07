@@ -14,9 +14,10 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
-#EDIT SETUP IZIN
-clear
-sudo hostnamectl set-hostname Geo-Project
+# Getting
+MYIP=$(wget -qO- ipinfo.io/ip);
+echo "Checking VPS"
+IZIN=$(wget -qO- ipinfo.io/ip);
 clear
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
